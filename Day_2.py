@@ -151,6 +151,7 @@ bill_per_person = total_bill / int(number_of_persons)
 final_pay = round(bill_per_person, 2)
 final_pay = "{:.2f}".format(bill_per_person)
 #to round to 2 decimal places
+#convert float into string
 message = f"Each person should pay: {final_pay}"
 print(message)
 
