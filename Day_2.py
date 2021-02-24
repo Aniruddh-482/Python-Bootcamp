@@ -147,7 +147,10 @@ percent = percent_as_float / 100
 percent += 1
 total_bill = bill_as_float * percent
 number_of_persons = input("How many people to split the bill? ")
-each_pay = round(total_bill / int(number_of_persons), 2)
-message = f"Each person should pay: {each_pay}"
+bill_per_person = total_bill / int(number_of_persons)
+final_pay = round(bill_per_person, 2)
+final_pay = "{:.2f}".format(bill_per_person)
+#to round to 2 decimal places
+message = f"Each person should pay: {final_pay}"
 print(message)
 
