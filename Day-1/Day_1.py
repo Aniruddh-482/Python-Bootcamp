@@ -48,3 +48,7 @@ a = b
 b = c
 print("a: " + a)
 print("b: " + b)
+
+#We can make multiple lines by simply select them and press 'ctrl + /'
+
+
