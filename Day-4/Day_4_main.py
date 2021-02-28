@@ -151,7 +151,7 @@ print(f"{row1}\n{row2}\n{row3}")
 # Where do you want to put the treasure? 23
 # ['⬜️', '⬜️', '⬜️']
 # ['⬜️', '⬜️', '⬜️']
-# ['⬜️', 'x', '⬜️']
+# ['⬜️', 'X', '⬜️']
 
 
 
