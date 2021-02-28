@@ -58,8 +58,6 @@ states_of_america.append("Angelaland")
 states_of_america.extend(["Angelaland", "Jack Bauer land"]) 
 #extend function adds more then one items to the list
 
-dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
-
 
 #You are going to write a program which will select a random name from a list of names. 
 #The person selected will have to pay for everybody's food bill.
@@ -86,6 +84,63 @@ names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
 bill_payer = random.choice(names)  #Choice function pick one element of given list
 print(bill_payer + " is going to buy the meal today!")
+
+
+#Nested Lists
+#Lists within list
+#for example
+# dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines",  "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
+#prints the two seperate lists within a list
+#[['Strawberries', 'Nectarines', 'Apples', 'Grapes', 'Peaches', 'Cherries', 'Pears'], ['Spinach', 'Kale', 'Tomatoes', 'Celery', 'Potatoes']]
+print(dirty_dozen[0])
+print(dirty_dozen[1])
+#['Strawberries', 'Nectarines', 'Apples', 'Grapes', 'Peaches', 'Cherries', 'Pears']
+#['Spinach', 'Kale', 'Tomatoes', 'Celery', 'Potatoes']
+print(dirty_dozen[1][2])
+print(dirty_dozen[1][3])
+#Tomatoes
+#Celery
+print(dirty_dozen[0][1])
+print(dirty_dozen[1][2])
+#Nectarines
+#Tomatoes
+print(dirty_dozen[1][1])
+#Kale
+
+
+# Treasure Map
+# https://cdn.fs.teachablecdn.com/wiFJAkZZSG2RpGsxYgDO
+# You are going to write a program which will mark a spot with an X.
+# Your job is to write a program that allows you to mark a square on the map using a two-digit system. The first digit is the vertical column number and the second digit is the horizontal row number. e.g.:
+# https://cdn.fs.teachablecdn.com/2vnboIYTFFruvl9FJ2w5
+# First your program must take the user input and convert it to a usable format.
+# Next, you need to use it to update your nested list with an "x".
+row1 = ["⬜️","⬜️","⬜️"]
+row2 = ["⬜️","⬜️","⬜️"]
+row3 = ["⬜️","⬜️","⬜️"]
+map = [row1, row2, row3]
+print(f"{row1}\n{row2}\n{row3}")
+position = input("Where do you want to put the treasure? ")
+column = round(int(position) / 10)
+row = int(position) % 10
+column -= 1
+row -= 1
+map[row][column] = 'x'
+print(f"{row1}\n{row2}\n{row3}")
+# ['⬜️', '⬜️', '⬜️']
+# ['⬜️', '⬜️', '⬜️']
+# ['⬜️', '⬜️', '⬜️']
+# Where do you want to put the treasure? 23
+# ['⬜️', '⬜️', '⬜️']
+# ['⬜️', '⬜️', '⬜️']
+# ['⬜️', 'x', '⬜️']
+
+
 
 
 
