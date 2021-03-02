@@ -154,6 +154,79 @@ print(f"{row1}\n{row2}\n{row3}")
 # ['⬜️', 'X', '⬜️']
 
 
+#Write a program for rock-paper-scissoors game 
+import random
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+
+choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. ")
+choice_int = int(choice)
+
+random_choice = random.randint(0, 3)
+
+if choice_int == 0:
+  print(rock)
+  print("Computer choose:")
+  if random_choice == 1:
+    print(paper)
+    print("!!You Lose!!")
+  elif random_choice == 0:
+    print(rock)
+    print("Match Draw")
+  else:
+    print(scissors)
+    print("!!You Won!!")
+elif choice_int == 1:
+  print(paper)
+  print("Computer choose:")
+  if random_choice == 2:
+    print(scissors)
+    print("!!You Lose!!")
+  elif random_choice == 1:
+    print(paper)
+    print("Match Draw")
+  else:
+    print(rock)
+    print("!!You Won!!")
+else:
+  print(scissors)
+  print("Computer choose:")
+  if random_choice == 0:
+    print(rock)
+    print("!!You Lose!!")
+  elif random_choice == 2:
+    print(scissors)
+    print("Match Draw")
+  else:
+    print(paper)
+    print("!!You Won!!")
+
+#or
 
 
 
@@ -161,4 +234,4 @@ print(f"{row1}\n{row2}\n{row3}")
 
 
 
-
+ 
