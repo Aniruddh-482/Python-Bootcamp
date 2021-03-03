@@ -23,6 +23,24 @@ my_function()  # Calling of function
 # # for using the we had to call it
 
 
-
+# Indentation
+# ---------------------
+# |def my_function(): | #Line 1
+# |....print("Hello") | #Line 2
+# |....print("World") | #Line 3
+# ---------------------
+# print("World")      #Line 4
+# . = 'space' in above particular code
+# Line 1, 2 and 3 are intended on the other hand Line 4 is not intended
+# for example
+# ---------------------------
+# |def my_function():       |  |- Function Block
+# |....if sky == 'clear':   |  |- If Block
+# |........print("blue")    |  |              } Intended
+# |....elif sky == "cloudy":|  |- Elif Block
+# |........print("grey")    |  |
+# |....print("Hello")       |
+# ---------------------------
+# print("World")
 
 
