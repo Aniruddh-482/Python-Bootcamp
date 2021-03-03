@@ -131,6 +131,12 @@ jump()  #3rd Jump
 jump()  #4th Jump
 jump()  #5th Jump
 jump()  #6th Jump
+# By Using For Loop
 for step in range(6):  #(0, 6)
   jump()  #Jumps 6 times
+# By Using While Loop
+number_of_hurdles = 6
+while number_of_hurdles > 0:
+  jump()  # Jumps 6 times
+  number_of_hurdles -= 1
 # #!!You Win!!
