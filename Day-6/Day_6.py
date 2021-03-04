@@ -211,10 +211,51 @@ while at_goal() != True:
 # The conditions front_is_clear() or wall_in_front(), at_goal(), and their negation.
 # How to use a while loop and an if statement.
 # Your program should also be valid for worlds Hurdles 1 and Hurdles 2.
+def jump():
+    turn_left()
+    move()
+    turn_right()
+    move()
+    turn_right()
+    move()
+    turn_left()
 while at_goal() != True:
     if front_is_clear() == True:
         move()  
     elif wall_in_front() == True:
         jump()
 
-
+# Reeborg's World Hurdles 4 Challenge
+# https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json
+# Hurdles race
+# Reeborg has entered a hurdle race. Make him run the course, following the path shown.
+# The position, the height and the number of hurdles changes each time this world is reloaded.
+# What you need to know
+# You should be able to write programs that are valid for worlds Around 4 and Hurdles 3, and ot combine them for this last hurdles race.
+# Your program should also be valid for worlds Hurdles 1, Hurdles 2 et Hurdles 3
+def wall_on_left():
+    wall_on_right()
+    wall_on_right()
+    wall_on_right()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+def jump():
+    turn_left()
+    while right_is_clear() != True and at_goal() != True:
+        if wall_on_left() == True:
+            turn_left()
+        if wall_in_front() == True:
+            turn_left()
+        if wall_on_right() == True:
+            move()
+    if at_goal() == False:
+        turn_right()
+        move()
+        turn_right()
+while at_goal() != True:
+    if front_is_clear() == True:
+        move()  
+    elif wall_in_front() == True:
+        jump()
