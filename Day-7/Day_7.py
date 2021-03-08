@@ -502,8 +502,3 @@ while not game_is_finished:
 
 
 
-
-
-
-
-
