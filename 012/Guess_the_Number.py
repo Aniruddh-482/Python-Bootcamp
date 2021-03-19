@@ -1,5 +1,6 @@
-# Number Guessing Game Objectives:
+########## The Number Guessing Game ##########
 
+# Number Guessing Game Objectives:
 # Include an ASCII art logo.
 # Allow the player to submit a guess for a number between 1 and 100.
 # Check user's guess against actual answer. Print "Too high." or "Too low." depending on the user's answer. 
@@ -50,6 +51,5 @@ elif difficulty == "hard":
   lives = 5
   game(lives, random_number)
 
-  
   
   
