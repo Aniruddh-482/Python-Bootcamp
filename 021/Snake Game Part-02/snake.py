@@ -6,7 +6,6 @@ DOWN = 270
 LEFT = 180
 RIGHT = 0
 
-
 class Snake:
 
     def __init__(self):
@@ -29,7 +28,7 @@ class Snake:
         # Add a new segment to the snake.
         self.add_segment(self.segments[-1].position())
         # In lists by writing negative number we can get the elements in reverse order.
-        # We can get index value in turtle by using position() method.
+        # We can get index value or position in turtle by using position() method.
 
     def move(self):
         for seg_num in range(len(self.segments) - 1, 0, -1):
