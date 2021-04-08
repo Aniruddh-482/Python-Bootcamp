@@ -1,8 +1,8 @@
+# U.S. States Map Quiz: https://www.sporcle.com/games/g/states
+
 # To get coordinates on click
 # def get_mouse_click_coor(x, y):
 #     print(x, y)
-#
-#
 # turtle.onscreenclick(get_mouse_click_coor)
 # turtle.mainloop()
 
@@ -43,6 +43,4 @@ while len(guessed_states) < 50:
         t.goto(int(state_data.x), int(state_data.y))
         t.write(answer_state)
 
-
-
-
+        
