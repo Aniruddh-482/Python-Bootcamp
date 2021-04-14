@@ -11,9 +11,3 @@
 [>](https://github.com/Aniruddh-482/Python/blob/main/002/Mathematical_Operations.py) Mathematical Operations in Python.<br>
 [>](https://github.com/Aniruddh-482/Python/blob/main/002/Mathematical_Operations.py) Number Manipulation and F Strings in Python.<br>
 [>](https://github.com/Aniruddh-482/Python/blob/main/002/Tip_Calculator.py) Day 2 Project: Tip Calculator
-
-
-
-
-
-
