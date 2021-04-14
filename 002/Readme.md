@@ -1,4 +1,4 @@
-# DAY-01 (100 Days of Code Python)
+# DAY-02 (100 Days of Code Python)
 
 ## Understanding Data Types 
 
