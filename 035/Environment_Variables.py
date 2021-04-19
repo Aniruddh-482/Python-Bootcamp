@@ -8,11 +8,11 @@
 # (In Console)
 # ~ $ env
 
-# ~ $ export OWM_API_KEY=2b3eef62103e95200965a5dd20401fe0   # (API_Key)
+# ~ $ export OWM_API_KEY=demo_api_key   # (API_Key)
 # ~ $ env
 # # Environment Variable OWM_API_KEY is saved.
 
-# ~ $ export AUTH_TOKEN=b3ddba2253721841abd85eb7bde300c1    # (AUTH_TOKEN)
+# ~ $ export AUTH_TOKEN=demo_auth_token   # (AUTH_TOKEN)
 # ~ $ env
 # Environment Variable AUTH_TOKEN is saved.
 
@@ -25,7 +25,7 @@ from twilio.http.http_client import TwilioHttpClient
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 api_key = os.environ.get("OWM_API_KEY")
-account_sid = "ACc5a7f305d6ce7b8d2fa66b590828ba73"
+account_sid = "demo_account_sid"
 auth_token = os.environ.get("AUTH_TOKEN")
 
 parameters = {
