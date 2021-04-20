@@ -2,11 +2,15 @@
 # --------------------- #
 
 # Function Parameters: 
-# def my_function(something):      # Something = 123
-	# Do this with something   #    |         |
-	# Then do this             # Parameter   Argument
+# def my_function(something):      
+	# Do this with something   
+	# Then do this             
 	# Finally do this
 # my_function(123)  #or any data you want to pass to my_function
+
+# Something = 123
+#    |         |
+# Parameter   Argument
 
 # Argument is actual piece of data thts going to be passed over to the function when its being called
 # Parameter is the name of that data and we use the parameter inside the function to refer to it and do things with it
