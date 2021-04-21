@@ -1,6 +1,6 @@
 # DAY-13 (100 Days of Code Python)
 
-## Debugging: How to Find and Fix Errors i…Section 13: Day 13 - Beginner - Debugging: How to Find and Fix Errors in your Code
+## Debugging: How to Find and Fix Errors in your Code
 
 [>](https://github.com/Aniruddh-482/Python/blob/main/013/Debugging.py) Describe the Problem <br>
 
