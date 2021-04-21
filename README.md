@@ -19,5 +19,13 @@
 [Day-09:](https://github.com/Aniruddh-482/Python/tree/main/009) Dictionaries, Nesting and the Secret Auction <br>
 
 [Day-10:](https://github.com/Aniruddh-482/Python/tree/main/010) Functions with Outputs <br>
+
+[Day-11:](https://github.com/Aniruddh-482/Python/tree/main/011) The Blackjack Capstone Project <br>
+
+[Day-12:](https://github.com/Aniruddh-482/Python/tree/main/012) Scope & Number Guessing Game <br>
+
+[Day-13:](https://github.com/Aniruddh-482/Python/tree/main/013) Debugging: How to Find and Fix Errors in your Code <br>
+
+[Day-14:](https://github.com/Aniruddh-482/Python/tree/main/014) Higher Lower Game Project <br>
 <hr>
-<!-- [Day-00:]()  <br> -->
+<!-- [Day-10:]()  <br> -->
