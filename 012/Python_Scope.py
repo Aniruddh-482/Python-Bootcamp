@@ -21,8 +21,13 @@ increase_enemies()
 print(f"enemies outside function: {enemies}")  # Prints Skeleton
 # Both the variables of local scope and global scope have same name but are totally different varibles
 
-# Local Scope
-# define variables or functions within the function, and only accessible within the function
+
+# Local Scope #
+# ----------- #
+
+# define variables or functions within the function, and only accessible within the function.
+
+# For Example: 
 def drink_potion():
   potion_strength = 2  # local scope
   # only accessible within the function
@@ -30,8 +35,13 @@ def drink_potion():
 drink_potion()  # Prints 2
 # print(potion_strength)  # gives error
 
-# Global Scope
-# define variables or functions outside the function, and we can use it every whenever we want, it's available anywhere within a file  
+
+# Global Scope #
+# ------------ #
+
+# define variables or functions outside the function, and we can use it every whenever we want, it's available anywhere within a file.
+
+# For Example: 
 player_health = 10  # global scope
 def drink_potion():
   potion_strength = 2  # local scope
@@ -39,13 +49,18 @@ def drink_potion():
 drink_potion()  # Prints 10
 print(player_health)  # Prints 10
 
-# 
+# Example: 
 enemies = 1  # Global Scope
 def increase_enemies():
   print(f"enemies inside function: {enemies}")  # Prints 1
 
-# Local Function
-# only available within a function in which it is defined
+  
+# Local Function #
+# -------------- #
+
+# only available within a function in which it is defined.
+
+# For Example: 
 player_health = 10  
 def game():
   def drink_potion():  # local scope/ locaal  function
@@ -55,11 +70,15 @@ def game():
 # drink_potion()  # gives error
 print(player_health)  # Prints 10  
 
-# Does Python have block scope
+
+# Does Python have block scope #
+# ---------------------------- #
+
 # A block scope is the area within if, switch conditions or for and while loops. 
 # Generally speaking, whenever you see {curly brackets}, it is a block. 
 # to declare variables in the block scope, which means those variables exist only within the corresponding block.
 # There is no block scope
+
 game_level =3
 enemies = ["Skeleton", "Zombie", "Aliens"]
 if game_level < 5:
@@ -75,8 +94,11 @@ def create_enemy():
   print(new_enemy)  # Prints Skeleton
 # print(new_enemy)  # gives error
 
+
+# Modifying Global Scope #
+# ---------------------- #
+
 # How to Modify Variables with Global Scope
-# Modifying Global Scope
 enemies = 1  #Global Scope
 def increase_enemies():
   # enemies += 1  # gives error
@@ -95,10 +117,9 @@ enemies = increase_enemies()
 print(f"enemies outside function: {enemies}")  # Prints 2
 
 # Python Constants and Global Scope
-#Global Constants
+# Global Constants
 
 PI = 3.14159
 URL = "https://www.google.com"
 TWITTER_HANDLE = "@yu_angela"
-
 
