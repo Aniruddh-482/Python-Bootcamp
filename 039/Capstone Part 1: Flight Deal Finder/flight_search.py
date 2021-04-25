@@ -1,12 +1,29 @@
+from pprint import pprint
 import requests
 
-TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-TEQUILA_API_KEY = "YOUR_API_KEY_HERE"
+SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/82cbcc5f95e037c72da5e3c462132a4e/flightDeals/prices"
 
 
-class FlightSearch:
+class DataManager:
 
-    def get_destination_code(self, city_name):
-        # Return "TESTING" for now to make sure Sheety is working. Get TEQUILA API data later.
-        code = "TESTING"
-        return code
+    def __init__(self):
+        self.destination_data = {}
+
+    def get_destination_data(self):
+        response = requests.get(url=SHEETY_PRICES_ENDPOINT)
+        data = response.json()
+        self.destination_data = data["prices"]
+        return self.destination_data
+
+    def update_destination_codes(self):
+        for city in self.destination_data:
+            new_data = {
+                "price": {
+                    "iataCode": city["iataCode"]
+                }
+            }
+            response = requests.put(
+                url=f"{SHEETY_PRICES_ENDPOINT}/{city['id']}",
+                json=new_data
+            )
+            print(response.text)
