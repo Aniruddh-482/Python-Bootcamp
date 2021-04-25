@@ -17,5 +17,5 @@
 
 [>](https://github.com/Aniruddh-482/Python/blob/main/039/Capstone%20Part%201:%20Flight%20Deal%20Finder/flight_data.py) Step 4 - Search for Cheap Flights <br>
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/039/Capstone%20Part%201:%20Flight%20Deal%20Finder/notification_manager.py) Step 5 - If Flight Price Lower than in Google Sheet send an SMS <br>
+[>](https://github.com/Aniruddh-482/Python/blob/main/039/Capstone%20Part%201:%20Flight%20Deal%20Finder/notification_manager.py) Step 5 - If Flight Price Lower than in Google Sheet send an SMS 
 <hr>
