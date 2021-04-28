@@ -1,0 +1,55 @@
+<!-- 
+* HTML Tables *
+  -----------
+
+# The Table Element:
+The HTML <table> element represents tabular data.
+
+# Structure:
+<table>                                                                                                                                                   - <table>
+    <thead>                                                                                                                            - <thead>          |
+        <tr>                                                                                                       - <tr>              |                  |
+            <th colspan="2">The Table Header</th>           |- Title of particular column ( th - table header )    |- Table 1st row    |- Table Header    |
+        </tr>                                                                                                      - </tr>             |                  |
+    </thead>                                                                                                                           - </thead>         |
+    <tbody>                                                                                                                            - <tbody>          |
+        <tr>                                                                                                       - <tr>              |                  |
+            <td>1st Element</td>                            |- 1st Element ( td - table data )                     |- Table 2nd row    |- Table body      |- Table 
+            <td>2nd Element</td>                            |  2nd Element (Both elements are in same row)         | tr - table row    |                  |
+        </tr>                                                                                                      - </tr>             |                  |
+    </tbody>                                                                                                                           - </tbody>         |
+    <tfoot>                                                                                                                            - <tfoot>          |
+        <tr>                                                                                                       - <tr>              |                  |
+            <th colspan="2">Footer Element</th>             |- Footer Element (Table footer)                       |- Table 3rd row    |- Table footer    |
+        </tr>                                                    (th or td)                                        - </tr>             |                  |
+    </tfoot>                                                                                                                           - </tfoot>         |
+</table>                                                                                                                                                  - </table>
+
+-->
+
+<!-- 
+* HTML Forms *
+  ----------
+
+# The Form Element: 
+The HTML <form> element represents a document section containing interactive controls for submitting information.
+
+# Structure:
+
+<form>                                                                                                                  - <form>
+    <label>Name:</Label>        |- Label Tag (You can write some text that will be displayed as a label inside form)    |  Form Tag (form element itself doesn't do any thing)
+    <input type="text">         |- Input Tag (Text type, Take texts)                                                    |- (In order for the form to do anything you need to import other HTML Elements)
+    <input type="submit">       |- Input Tag (Submit type, Submit button)                                               |  (Label and Input)
+</form>                            (Input is a self-closing tag)                                                        - </form>
+                                   (You can define the input type by using attribute type)
+                                   (and there are so many input types that can be used according to our needs.)
+
+-->
+
+<!-- For Example: -->    <!-- HTML Inputs -->
+<input type="text">      <!-- To take Texts -->
+<input type="submit">    <!-- Submit Button -->
+<input type="file">      <!-- For user to upload File -->
+<input type="date">      <!-- A Date Picker -->
+<input type="radio">     <!-- Radio Button -->
+<input type="range">     <!-- For Range -->
