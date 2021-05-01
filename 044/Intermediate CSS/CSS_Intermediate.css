@@ -1,0 +1,68 @@
+/* 
+* Favicons *
+  --------
+
+Favicon/Favourite Icon
+A favicon is a small 16×16 pixel icon that serves as branding for your website. 
+Its main purpose is to help visitors locate your page easier when they have multiple tabs open. 
+Due to their tiny size, favicons work best as simple images or one-to-three characters of text.
+
+*/
+
+/* 
+* HTML Divs *
+  ---------  
+
+# <div>: The Content Division element
+  The HTML Content Division element (<div>) is the generic container for flow content. 
+  It has no effect on the content or layout until styled in some way using CSS 
+
+*/
+
+/* 
+* CSS Display Property *
+  --------------------  
+
+1. Block
+2. Inline
+3. Inline-Block
+4. None
+
+# Common Block Elements 
+  * Paragraphs (<p>)
+  * Headers (<h1> through <h6>)
+  * Divisions (<div>)
+  * Lists and list items (<ol>, <ul>, and <li>)
+  * Forms (<form>)
+
+# Common Inline Elements
+  * Spans (<span>)
+  * Images (<img>)
+  * Anchors (<a>)
+
+*/
+
+/* 
+* CSS Positioning *
+  ---------------  
+
+The position CSS property sets how an element is positioned in a document. 
+The top, right, bottom, and left properties determine the final location of positioned elements.
+
+1. Content is Everything
+2. Order Comes From Code
+3. Children Sit On Parents
+
+* Coordinates:
+  * Top
+  * Bottom
+  * Left
+  * Right
+
+* CSS Position Property
+  * Static   ( By Default, The element is positioned according to the normal flow of the document. )
+  * Relative ( The element is positioned according to the normal flow of the document. )
+  * Absolute ( The element is removed from the normal document flow, and no space is created for the element in the page layout. )
+  * Fixed    ( The element is removed from the normal document flow, and no space is created for the element in the page layout. )
+
+*/
