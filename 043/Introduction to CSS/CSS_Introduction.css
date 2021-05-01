@@ -1,0 +1,140 @@
+/* CSS: Cascading Style Sheets */
+
+/* 
+* Intoduction to CSS *
+  ------------------ 
+
+# Inline CSS #
+  ----------   
+
+An inline CSS is used to apply a unique style to a single HTML element. 
+An inline CSS uses the style attribute of an HTML element.
+
+# For Example: 
+<h1 style="color:blue;">A Blue Heading</h1>    |- Changing color of heading using Inline CSS
+
+
+# Internal CSS #
+  ------------   
+
+An internal CSS is used to define a style for a single HTML page. 
+An internal CSS is defined in the <head> section of an HTML page, 
+within a <style> element.
+
+# For Example: 
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>                                      - <style>
+      body {background-color: powderblue;}       |
+      h1 {color: blue;}                          |- Styling body, heading, and paragraph using internal CSS
+      p {color: red;}                            |
+    </style>                                     - <style>
+  </head>
+  <body>                                         |- Body Background colour is powderblue
+    <h1>This is a heading</h1>                   |- Blue Heading
+    <p>This is a paragraph.</p>                  |- Red Paragraph
+  </body>
+</html>
+
+
+# External CSS #
+  ------------   
+An external style sheet is used to define the style for many HTML pages.
+To use an external style sheet, add a link to it in the <head> section of each HTML page
+
+# For Example: 
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">     |- Linking CSS file (styles.css)
+  </head>
+  <body>                                          |- Body Background colour is powderblue
+    <h1>This is a heading</h1>                    |- Blue Heading
+    <p>This is a paragraph.</p>                   |- Red Paragraph
+  </body>
+</html>
+"styles.css":                                      |- CSS file
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+* The external style sheet file must not contain any HTML code, and must be saved with a .css extension.
+
+*/
+
+/* 
+* The Anatomy of CSS Syntax *
+  -------------------------  
+
+# CSS Syntax (The Grammar of the CSS Language)
+                           What Property we want to change
+                                            \
+                                         --------
+                              selector { property: value; }
+                              --------             -----
+                                 /                    \
+                  Who's style we want to change        \
+                                                        \
+                               How do you/How much do you want to change that property
+
+# For Example:
+        h1 { color: red; }
+        --   -----  ---  
+        /      |      \
+ selector { property: value; }
+
+*/
+
+/* 
+* CSS Selectors *
+  -------------  
+
+In CSS, selectors are patterns used to select the element(s) you want to style.
+There are several different types of selectors in CSS:
+* CSS Element Selector
+* CSS Id Selector
+* CSS Class Selector
+
+1) CSS Element/Tag Selector
+The element selector selects the HTML element by name.
+
+# For Example: 
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+2) CSS Class Selector
+The class selector selects HTML elements with a specific class attribute. 
+It is used with a period character . (full stop symbol) followed by the class name.
+
+# For Example: 
+.circular {
+  border-radius: 100%;
+}
+
+3) CSS Id Selector
+The id selector selects the id attribute of an HTML element to select a specific element.
+An id is always unique within the page so it is chosen to select a single, unique element.
+It is written with the hash character (#), followed by the id of the element.
+
+# For Example: 
+#heading {
+  color: blue;
+}
+
+# CSS :hover Selector (CSS Pseudo-class) 
+The :hover selector is used to select elements when you mouse over them.
+
+# For Example: 
+img:hover {
+  background-color: gold;
+}
+*/
