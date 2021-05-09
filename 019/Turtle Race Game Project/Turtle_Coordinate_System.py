@@ -1,5 +1,3 @@
-# Turtle TextInput: https://docs.python.org/3.1/library/turtle.html#turtle.textinput
-
 from turtle import Turtle, Screen
 
 screen = Screen()
