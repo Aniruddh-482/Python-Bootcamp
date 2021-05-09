@@ -1,5 +1,3 @@
-# For More Question: https://opentdb.com/
-
 # question_data = [
 #     {"text": "A slug's blood is green.", "answer": "True"},
 #     {"text": "The loudest animal is the African Elephant.", "answer": "False"},
@@ -72,3 +70,4 @@ question_data = [
      "correct_answer": "False",
      "incorrect_answers": ["True"]}
 ]
+
