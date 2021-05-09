@@ -27,5 +27,17 @@
 [Day-13:](https://github.com/Aniruddh-482/Python/tree/main/013) Debugging: How to Find and Fix Errors in your Code <br>
 
 [Day-14:](https://github.com/Aniruddh-482/Python/tree/main/014) Higher Lower Game Project <br>
+
+[Day-15:](https://github.com/Aniruddh-482/Python/tree/main/015) Local Development Environment Setup & the Coffee Machine <br>
+
+[Day-16:](https://github.com/Aniruddh-482/Python/tree/main/016) Object Oriented Programming (OOP) <br>
+
+[Day-17:](https://github.com/Aniruddh-482/Python/tree/main/017) The Quiz Project & the Benefits of OOP <br>
+
+[Day-18:](https://github.com/Aniruddh-482/Python/tree/main/018) Turtle & the Graphical User Interface (GUI) <br>
+
+[Day-19:](https://github.com/Aniruddh-482/Python/tree/main/019) Instances, State and Higher Order Functions <br>
+
+[Day-20:](https://github.com/Aniruddh-482/Python/tree/main/020) Build the Snake Game Part 1: Animation & Coordinates <br>
 <hr>
-<!-- [Day-10:]()  <br> -->
+<!-- [Day-20:]()  <br> -->
