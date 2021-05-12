@@ -1,5 +1,3 @@
-# The open() method: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
-
 # Reading Files: 
 file = open("my_file.txt")  # To open the file.
 contents = file.read()  # To read the file.
