@@ -1,5 +1,3 @@
-# U.S. States Map Quiz: https://www.sporcle.com/games/g/states
-
 # To get coordinates on click
 # def get_mouse_click_coor(x, y):
 #     print(x, y)
