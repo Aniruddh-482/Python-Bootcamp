@@ -39,5 +39,17 @@
 [Day-19:](https://github.com/Aniruddh-482/Python/tree/main/019) Instances, State and Higher Order Functions <br>
 
 [Day-20:](https://github.com/Aniruddh-482/Python/tree/main/020) Build the Snake Game Part 1: Animation & Coordinates <br>
+
+[Day-21:](https://github.com/Aniruddh-482/Python/tree/main/021) Build the Snake Game Part 2: Inheritance & List Slicing <br>
+
+[Day-22:](https://github.com/Aniruddh-482/Python/tree/main/022) Build Pong: The Famous Arcade Game <br>
+
+[Day-23:](https://github.com/Aniruddh-482/Python/tree/main/023) The Turtle Crossing Capstone Project <br>
+
+[Day-24:](https://github.com/Aniruddh-482/Python/tree/main/024) Files, Directories and Paths <br>
+
+[Day-25:](https://github.com/Aniruddh-482/Python/tree/main/025) Working with CSV Data and the Pandas Library <br>
+
+[Day-26:](https://github.com/Aniruddh-482/Python/tree/main/026) List Comprehension and the NATO Alphabet <br>
 <hr>
 <!-- [Day-20:]()  <br> -->
