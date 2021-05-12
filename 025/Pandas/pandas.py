@@ -1,6 +1,3 @@
-# Pandas Documentation: https://pandas.pydata.org/docs/
-# Pandas API reference: https://pandas.pydata.org/docs/reference/index.html
-
 with open("weather_data.csv") as data_file:
     data = data_file.readlines()
     print(data)
@@ -70,4 +67,3 @@ data_dict = {
 data = pandas.DataFrame(data_dict)
 # print(data)
 data.to_csv("new_data.csv")  # Create a new csv file
-
