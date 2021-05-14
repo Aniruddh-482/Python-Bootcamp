@@ -3,8 +3,8 @@ import lxml
 from bs4 import BeautifulSoup
 import smtplib
 
-EMAIL = "aniruddhupadhyay07@gmail.com"
-PASSWORD = "AnSh@482"
+EMAIL = "Gmail"
+PASSWORD = "Password"
 
 URL = "https://www.amazon.com/Instant-Pot-Duo-Evo-Plus/dp/B07W55DDFB/ref=sr_1_1?qid=1597662463"
 
