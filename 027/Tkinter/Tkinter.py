@@ -1,8 +1,3 @@
-# Tk Commands: http://tcl.tk/man/tcl8.6/TkCmd/contents.htm
-# Tk Pack: http://tcl.tk/man/tcl8.6/TkCmd/pack.htm
-# Tk Entry: http://tcl.tk/man/tcl8.6/TkCmd/entry.htm
-# The Packer: https://docs.python.org/3/library/tkinter.html#the-packer
-
 from tkinter import *
 
 window = Tk()  # Creating Windows
@@ -33,3 +28,4 @@ input.pack()
 # print(input.get())  # Prints nothing
 
 window.mainloop()  # Keep the window on screen.
+
