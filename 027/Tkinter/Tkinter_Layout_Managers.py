@@ -1,26 +1,3 @@
-# Tkinter Layout Managers #
-# ----------------------- #
-
-# > Pack():  # pack():  The Pack geometry manager packs widgets in rows or columns.
-# Put a widget inside a frame (or any other container widget), and have it fill the entire frame. 
-# Place a number of widgets on top of each other. Place a number of widgets side by side.
-
-# > Place(): # place(): The Place geometry manager is the simplest of the three general geometry managers provided in Tkinter.
-# It allows you explicitly set the position and size of a window, either in absolute terms, or relative to another window.
-# To put a particular widget to a precise position
-
-# > Grid():  # grid(): The Grid geometry manager puts the widgets in a 2-dimensional table.
-# The master widget is split into a number of rows and columns, and each “cell” in the resulting table can hold a widget. 
-# The grid manager is the most flexible of the geometry managers in Tkinter.
-
-# WARNING: we can't mix up grid() and pack() in the same program.
-# We can't use grid() and pack() both in the same programe.
-# It gives Error
-
-# Padding: Add space around window or any specific widget so that they are not all crushed together.
-
-# For Example:
-
 from tkinter import *
 
 def button_clicked():
@@ -55,3 +32,4 @@ print(input.get())
 input.grid(column=3, row=2)
 
 window.mainloop()
+
