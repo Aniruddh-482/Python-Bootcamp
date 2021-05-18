@@ -5,11 +5,11 @@
 * Important Links: 
   * [This Person Does Not Exist](https://www.thispersondoesnotexist.com)      <!-- You can hit refresh on thispersondoesnotexist to generate new random images. -->
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/Auto%20Tinder%20Swiping%20Bot/main.py) Step 1 - Setup your account on Tinder <br>
+[>](https://github.com/Aniruddh-482/Python/blob/main/050/Auto%20Tinder%20Swiping%20Bot/main.py) Step 1 - Setup your account on Tinder <br>
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/Auto%20Tinder%20Swiping%20Bot/main.py) Step 2 - Navigate to Login Page <br>
+[>](https://github.com/Aniruddh-482/Python/blob/main/050/Auto%20Tinder%20Swiping%20Bot/main.py) Step 2 - Navigate to Login Page <br>
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/Auto%20Tinder%20Swiping%20Bot/main.py) Step 3 - Login with Facebook <br>
+[>](https://github.com/Aniruddh-482/Python/blob/main/050/Auto%20Tinder%20Swiping%20Bot/main.py) Step 3 - Login with Facebook <br>
 <!--
 In Selenium, each window has a identification handle, we can get all the window handles with:
 
@@ -46,8 +46,8 @@ you don't want to appear like a bot to Facebook as there is always the chance th
 Alternatively, you can try setting up an alternative Facebook account.
 -->
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/Auto%20Tinder%20Swiping%20Bot/main.py) Step 4 - Dismiss all requests <br>
+[>](https://github.com/Aniruddh-482/Python/blob/main/050/Auto%20Tinder%20Swiping%20Bot/main.py) Step 4 - Dismiss all requests <br>
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/Auto%20Tinder%20Swiping%20Bot/main.py) Step 5 - Hit Like! <br>
+[>](https://github.com/Aniruddh-482/Python/blob/main/050/Auto%20Tinder%20Swiping%20Bot/main.py) Step 5 - Hit Like! <br>
 <hr>
 
