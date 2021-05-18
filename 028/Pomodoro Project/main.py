@@ -1,7 +1,3 @@
-# Color Hunt: https://colorhunt.co/
-# Tk after: http://tcl.tk/man/tcl8.6/TclCmd/after.htm
-# Is Python strongly typed? (Article): https://stackoverflow.com/questions/11328920/is-python-strongly-typed
-
 from tkinter import *
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
