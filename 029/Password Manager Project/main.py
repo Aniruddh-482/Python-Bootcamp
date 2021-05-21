@@ -1,11 +1,3 @@
-# Article about Password rules: https://blog.codinghorror.com/password-rules-are-bullshit/
-# Tk Canvas: https://tkdocs.com/tutorial/canvas.html
-# Python File Write: https://www.w3schools.com/python/python_file_write.asp
-# Tk Entry: https://tkdocs.com/tutorial/widgets.html#entry
-# Python String join() Method: https://www.w3schools.com/python/ref_string_join.asp
-# pyperclip: https://pypi.org/project/pyperclip/
-
-
 from tkinter import *  # '*' only imports classes and constants
 from tkinter import messagebox  # messagebox is another module of code
 from random import choice, randint, shuffle
@@ -15,7 +7,9 @@ import pyperclip
 
 # Password Generator Project
 def generate_password():
-    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 
+               's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 
+               'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
 
