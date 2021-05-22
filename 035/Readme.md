@@ -13,7 +13,7 @@
   * [Twilio SMS Python Quickstart](https://www.twilio.com/docs/sms/quickstart/python) 
   * [API List](https://apilist.fun/) 
 <!--
-  * Pythonanywhere: https://www.pythonanywhere.com/user/Aniruddh482/ <br>
+  * Pythonanywhere: https://www.pythonanywhere.com/user/Aniruddh482/ 
 -->
 <!--
   * How to get Twilio to work on Free accounts with the proxy (fixing requests ConnectonError in HTTPSConnectionPool): 
