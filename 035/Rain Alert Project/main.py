@@ -1,14 +1,12 @@
-# How to get Twilio to work on Free accounts with the proxy (fixing requests ConnectonError in HTTPSConnectionPool)
-
 import requests
 import os
 from twilio.rest import Client
 from twilio.http.http_client import TwilioHttpClient
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
-api_key = "2b3eef62103e95200965a5dd20401fe0"
-account_sid = "ACc5a7f305d6ce7b8d2fa66b590828ba73"
-auth_token = "b3ddba2253721841abd85eb7bde300c1"
+api_key = "api key"
+account_sid = "account sid"
+auth_token = "auth token"
 
 parameters = {
     "lat": 23.179190,
@@ -43,4 +41,3 @@ if will_rain:
     )
     print(message.status)
 
-    
