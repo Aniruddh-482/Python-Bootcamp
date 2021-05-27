@@ -2,15 +2,15 @@
 
 ## Workout Tracking Using Google Sheets
 
-* Important Links:<br>
-  * Nutritionix API: https://www.nutritionix.com/business/api <br>
-  * Nutritionix "Natural Language for Exercise" API Documentation: https://docs.google.com/document/d/1_q-K-ObMTZvO0qUEAxROrN3bwMujwAN25sLHwJzliK0/edit# <br>
-  * Sheety: https://sheety.co/ <br>
-  * Sheety Documentation: https://sheety.co/docs/requests <br>
+* Important Links:  
+  * [Nutritionix API](https://www.nutritionix.com/business/api) 
+  * [Nutritionix "Natural Language for Exercise" API Documentation](https://docs.google.com/document/d/1_q-K-ObMTZvO0qUEAxROrN3bwMujwAN25sLHwJzliK0/edit#) 
+  * [Sheety](https://sheety.co/) 
+  * [Sheety Documentation](https://sheety.co/docs/requests) 
 <!-- 
   * My Workouts (Spreadsheet): https://docs.google.com/spreadsheets/d/12TZ00o3ApWV-iste-smnnkBPfnGGagTE8wj0Z6WURlE/edit#gid=0 <br>
 -->
-[>](https://github.com/Aniruddh-482/Python/blob/main/038/Workout%20Tracking%20Project/Workout_Tracing_Programme.py) Step 1 - Setup API Credentials and Google Spreadsheet <br>
+[>](https://github.com/Aniruddh-482/Python-Bootcamp/blob/main/038/Workout%20Tracking%20Project/main.py) Step 1 - Setup API Credentials and Google Spreadsheet <br>
 <!--
 1. Go to this link and create a copy of the My Workouts Spreadsheet. You may need to login/register.
 
@@ -22,12 +22,12 @@
 4. Create a new project in PyCharm and in the main.py create 2 constants to store the APP_ID and API_KEY that you got from Nutritionix.
 -->
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/038/Workout%20Tracking%20Project/Workout_Tracing_Programme.py) Step 2 - Get Exercise Stats with Natural Language Queries <br>
+[>](https://github.com/Aniruddh-482/Python-Bootcamp/blob/main/038/Workout%20Tracking%20Project/main.py) Step 2 - Get Exercise Stats with Natural Language Queries <br>
 <!--
 1. Using the Nutritionix "Natural Language for Exercise" API Documentation, figure out how to print the exercise stats for a plain text input.
 -->
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/038/Workout%20Tracking%20Project/Workout_Tracing_Programme.py) Step 3 - Setup Your Google Sheet with Sheety <br>
+[>](https://github.com/Aniruddh-482/Python-Bootcamp/blob/main/038/Workout%20Tracking%20Project/main.py) Step 3 - Setup Your Google Sheet with Sheety <br>
 <!--
 1. Log into Sheety with your Google Account (the same account that owns the Google Sheet you copied in step 1).
    Make sure the email matches between your Google Sheet and Sheety Account. 
@@ -38,14 +38,14 @@
 3. Click on the workouts API endpoint and enable GET and POST.
 -->
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/038/Workout%20Tracking%20Project/Workout_Tracing_Programme.py) Step 4 - Saving Data into Google Sheets <br> 
+[>](https://github.com/Aniruddh-482/Python-Bootcamp/blob/main/038/Workout%20Tracking%20Project/main.py) Step 4 - Saving Data into Google Sheets <br> 
 <!--
 1.  Using the Sheety Documentation, write some code to use the Sheety API to generate a new row of data in your Google Sheet 
     for each of the exercises that you get back from the Nutritionix API. 
     The date and time columns should contain the current date and time from the Python datetime module.
 -->
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/038/Workout%20Tracking%20Project/Workout_Tracing_Programme.py) Step 5 - Authenticate Your Sheety API <br>
+[>](https://github.com/Aniruddh-482/Python-Bootcamp/blob/main/038/Workout%20Tracking%20Project/main.py) Step 5 - Authenticate Your Sheety API <br>
 <!--
 At the moment there is no authentication that's required to access your Sheety endpoint. 
 That means anyone could read and write to your "My Workout" Google Sheet.
@@ -64,7 +64,7 @@ That means anyone could read and write to your "My Workout" Google Sheet.
 2. Using the Sheety documentation on authentication to update your Python code to authenticate your request.
 -->
 
-[>](https://github.com/Aniruddh-482/Python/blob/main/038/Workout%20Tracking%20Project/Workout_Tracing_Programme.py) Step 6 - Environment Variables in Repl.it <br>
+[>](https://github.com/Aniruddh-482/Python-Bootcamp/blob/main/038/Workout%20Tracking%20Project/main.py) Step 6 - Environment Variables in Repl.it <br>
 <!--
 In order to be able to post our workout data while we're out and about, it would be easier if we can access the console and run the code in Repl.it
 However, because Repl.it is open source, we don't want other people to see our API keys and secrets.
