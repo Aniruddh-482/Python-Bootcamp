@@ -3,13 +3,13 @@
 ## Intermediate CSS: 
 
 * Important Links: 
-  * Favicon Generator: https://www.favicon.cc/         <!-- For creating our own favicon -->
-  * CSS Font Stack: https://www.cssfontstack.com/
-  * Google Fonts: https://fonts.google.com/
-  * Flaticon.com : https://www.flaticon.com/           <!-- For icons and images -->
-  * Giphy.com: https://giphy.com/                      <!-- For GIFs -->
-  * CSS Button Creator: https://cssbuttoncreator.com/  <!-- For Creating Button -->
-  * Frontend Mentor: https://www.frontendmentor.io/    <!-- For Practice -->
+  * [Favicon Generator](https://www.favicon.cc/)         <!-- For creating our own favicon -->
+  * [CSS Font Stack](https://www.cssfontstack.com/)
+  * [Google Fonts](https://fonts.google.com/)
+  * [Flaticon.com](https://www.flaticon.com/)            <!-- For icons and images -->
+  * [Giphy.com](https://giphy.com/)                      <!-- For GIFs -->
+  * [CSS Button Creator](https://cssbuttoncreator.com/)  <!-- For Creating Button -->
+  * [Frontend Mentor](https://www.frontendmentor.io/)    <!-- For Practice -->
 
 * What We'll Make - Stylised Personal Site 
 * What Are Favicons? 
@@ -28,3 +28,4 @@
   * Font Properties Challenge 3 - Change the Line Height 
 * CSS Float and Clear 
 <hr>
+
