@@ -4,8 +4,8 @@
 
 <!-- HTML: HyperText Markup Language -->
 * Important Links: 
-  * Codepen.io: https://codepen.io/    <!-- https://codepen.io/Aniruddh482/pen/NWdeobo -->
-  * Devdocs.io: https://devdocs.io/ 
+  * [Codepen.io](https://codepen.io/)    <!-- https://codepen.io/Aniruddh482/pen/NWdeobo -->
+  * [Devdocs.io](https://devdocs.io/) 
 
 * Introduction to HTML 
 * The Anatomy of an HTML Tag 
