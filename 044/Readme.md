@@ -1,6 +1,6 @@
 # DAY-44 (100 Days of Code Python)
 
-## Intermediate CSS: 
+## Intermediate CSS 
 
 * Important Links: 
   * [Favicon Generator](https://www.favicon.cc/)         <!-- For creating our own favicon -->
