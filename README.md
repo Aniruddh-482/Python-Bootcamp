@@ -79,5 +79,25 @@
 [Day-39:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/039) Capstone Part 1: Flight Deal Finder <br> 
 
 [Day-40:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/040) Capstone Part 2: Flight Club <br> 
+
+[Day-41:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/041) Introduction to HTML <br> 
+
+[Day-42:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/042) Intermediate HTML <br> 
+
+[Day-43:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/043) Introduction to CSS <br> 
+
+[Day-44:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/044) Intermediate CSS <br> 
+
+[Day-45:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/045) Web Scraping with Beautiful Soup <br> 
+
+[Day-46:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/046) Create a Spotify Playlist using the Musical Time Machine <br> 
+
+[Day-47:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/047) Create an Automated Amazon Price Tracker <br> 
+
+[Day-48:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/048) Selenium Webdriver Browser and Game Playing Bot <br> 
+
+[Day-49:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/049) Automating Job Applications on LinkedIn <br> 
+
+[Day-50:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/050) Auto Tinder Swiping Bot <br> 
 <hr>
-<!-- [Day-40:](https://github.com/Aniruddh-482/Python/tree/main/040)  <br> -->
+<!-- [Day-50:](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/050)  <br> -->
