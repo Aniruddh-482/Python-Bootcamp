@@ -5,7 +5,7 @@
 * Important Links: 
   * Flask Docs: [Rendering Templates](https://flask.palletsprojects.com/en/1.1.x/quickstart/#rendering-templates) 
   * [HTML5 UP](https://html5up.net/) 
-  * []() 
+  * [Unsplash](https://unsplash.com/) 
 <!--
   * to hard reload use shift + refresh button on the browser
 -->
@@ -18,8 +18,6 @@
 <!--
 document.body.contentEditable=true          (To directly edit webpage in browser) 
 -->
-[>]() Final Project - Name Card Website Template <br>
-
-[>]() Solution and Walkthrough for the Name Card Final Project <br>
+[>](https://github.com/Aniruddh-482/Python-Bootcamp/tree/main/056/Final%20Project%20-%20Name%20Card%20Website%20Template/Name%20Card) Final Project - Name Card Website Template <br>
 <hr>
 
