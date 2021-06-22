@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2>{{ 5 * 6 }}</h2>                                     <!-- We can use python in html by using '{{  }}' for one line statement -->
+    <h3>Random Number: {{ num }}</h3>                        <!-- We can pass variable values -->
+<a href="{{ url_for('get_blog', num=3) }}">Go To Blog</a>    <!-- Create url of blog.html and pass the value num = 3 -->
+</body>
+<footer>
+    <p>Copyright {{ year }}. Built by Aniruddh Upadhyay</p>
+</footer>
+</html>
+
